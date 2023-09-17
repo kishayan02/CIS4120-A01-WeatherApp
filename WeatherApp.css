@@ -1,0 +1,122 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Verdana', sans-serif;
+    padding: 3rem 4rem;
+    background:#c8e8ff;
+  }
+  
+  h1 {
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .temperature {
+    font-size: 128px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 32px;
+    color: #00000082;
+    margin-bottom: 64px;
+  }
+  
+  .day-of-week {
+    color: #3e3e3e;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 16px;
+  }
+  
+  .date-text {
+    font-size: 32px;
+    color: #00000082;
+    text-align: left;
+    width: 100px;
+  }
+  
+  .event-text1 {
+    background: -webkit-linear-gradient(#fff01bb6, #ffa200af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #2d2d2d82;
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 16px;
+  }
+
+  .event-text2 {
+    background: -webkit-linear-gradient(#fff01bb6, #b2ff17b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #2d2d2d82;
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 32px;
+  }
+
+  .event-text3 {
+    background: -webkit-linear-gradient(#b2ff17b3, #17ffa2b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #2d2d2d82;
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 32px;
+  }
+
+  .event-details {
+    font-size: 28px;
+    color: #00000082;
+    font-weight: 400;
+  }
+
+  
+  .event {
+    padding-left: 1rem;
+  }
+
+  hr {
+    border: 3px solid #b3d6f0;
+    border-radius: 5px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20 20px;
+    margin-top: 3rem;
+  }
+
+  .col{
+    align-items: center;
+    text-align: center;
+  }
+
+  .col img{
+    width: 100px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .main-information {
+    font-size: 60px;
+    font-weight: 550;
+    color: #5a5a5a;
+    margin-top: -10px;
+  }
+  
